@@ -45,8 +45,8 @@ This repository contains a small amount of basic examples of how to use MicroPyt
 5. Open connection
 6. Program!
 
-# Documention
+# Documentation
 - [Installation visualized](https://github.com/FunPythonEC/Python_para_MicroControladores/blob/master/Instalando_MicroPython.md)
 - [File System Manipulation](https://github.com/FunPythonEC/Python_para_MicroControladores/blob/master/Sistema_de_archivos.md)
 - [More Examples + ESP32 and ESP8266 Diagrams](https://github.com/FunPythonEC/Python_para_MicroControladores/blob/master/ejemplos.md)
-
+- [Interruptions](https://randomnerdtutorials.com/micropython-interrupts-esp32-esp8266/)
