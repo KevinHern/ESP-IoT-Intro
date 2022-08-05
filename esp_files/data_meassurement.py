@@ -16,8 +16,8 @@ SERVER_IP = "192.168.1.67"
 SERVER_PORT = 46000
 ESP_TIMEOUT = 5
 
-ssid = 'Hermandez02'
-password = '31lchm96mchm56kjhm53ghm'
+ssid = '---'
+password = '---'
 
 # Configuring ADC pin
 analog_pin = ADC(Pin(ANALOG_PIN))
