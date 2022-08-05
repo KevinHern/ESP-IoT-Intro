@@ -30,8 +30,8 @@ This repository contains a small amount of basic examples of how to use MicroPyt
 ### Flash Device
 1. Connect ESP by USB port and verify the PORT connectivity
 2. Download device Firmware Binary
-3. `esptool erase_flash`
-4. `esptool --chip ZZZ --port YYY --baud 460800 write_flash -z 0x1000 <binary route>`
+3. `esptool erase_flash` o  `esptool.py erase_flash`
+4. `esptool --chip ZZZ --port YYY --baud 460800 write_flash -z 0x1000 <binary route>` o `esptool.py --chip ZZZ --port YYY --baud 460800 write_flash -z 0x1000 <binary route>`
    - **ZZZ**: Esp device, either `esp32` or `esp82`
    - **YYY**: The port that the device is connected to (Example: `COM5`)
    - **<binary route\>**: The directory path to the binary
