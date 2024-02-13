@@ -11,7 +11,7 @@ This repository contains a small amount of basic examples of how to use MicroPyt
 - [ESP32](https://micropython.org/download/?port=esp32) or [ESP8266](https://micropython.org/download/?port=esp8266) Firmware
 
 # Flash Device
-We suggest an easier way using the [Thonny Software Method](https://github.com/KevinHern/ESP-IoT-Intro/blob/main/docs/thony_flashing_method.md), or in case you need full control over the device when flashing it, we also a [From-Scratch Flashing Method](https://github.com/KevinHern/ESP-IoT-Intro/blob/main/docs/flashing_from_scratch_method.md).
+We suggest an easier way using the [Thonny Software Method](https://github.com/KevinHern/ESP-IoT-Intro/blob/main/docs/thony_flashing_method.md), or in case you need full control over the device when flashing it, we also have a [From-Scratch Flashing Method](https://github.com/KevinHern/ESP-IoT-Intro/blob/main/docs/flashing_from_scratch_method.md).
 
 # File System
 The ESP Microchips are very robust and have an integrated memory to save files.
