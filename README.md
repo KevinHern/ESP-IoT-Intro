@@ -10,40 +10,8 @@ This repository contains a small amount of basic examples of how to use MicroPyt
 ### Hardware Firmware
 - [ESP32](https://micropython.org/download/?port=esp32) or [ESP8266](https://micropython.org/download/?port=esp8266) Firmware
 
-### Programming Software
-- [Python version 3](https://www.python.org/downloads/)
-- [Java](https://www.java.com/es/download/)
-
-### Python Libraries
-- [ESPtool](https://github.com/espressif/esptool/)
-- [Ampy](https://github.com/pycampers/ampy)
-
-### IDEs
-- [ESPLorer](https://esp8266.ru/esplorer/)
-
-## Installation and Preparations
-
-### Install Python Libraries
-- `pip3 install esptool`
-- `pip3 install adafruit-ampy`
-
-### Flash Device
-1. Connect ESP by USB port and verify the PORT connectivity
-2. Download device Firmware Binary
-3. `esptool erase_flash` o  `esptool.py erase_flash`
-4. `esptool --chip ZZZ --port YYY --baud 460800 write_flash -z 0x1000 <binary route>` o `esptool.py --chip ZZZ --port YYY --baud 460800 write_flash -z 0x1000 <binary route>`
-   - **ZZZ**: Esp device, either `esp32` or `esp8266`
-   - **YYY**: The port that the device is connected to (Example: `COM5`)
-   - **<binary route\>**: The directory path to the binary
-
-### Configuring ESPLorer
-1. En el directorio donde se encuentra el .jar, ejecutar: 
-    `java -jar ESPlorer.jar`
-2. Settings > Select Firmware > MicroPython
-3. Main Tab > Baud Rate > 115200
-4. RTS ON
-5. Open connection
-6. Program!
+# Flash Device
+We suggest an easier way using the [Thonny Software Method](https://github.com/KevinHern/ESP-IoT-Intro/blob/main/docs/thony_flashing_method.md), or in case you need full control over the device when flashing it, we also a [From-Scratch Flashing Method](https://github.com/KevinHern/ESP-IoT-Intro/blob/main/docs/flashing_from_scratch_method.md).
 
 # File System
 The ESP Microchips are very robust and have an integrated memory to save files.
